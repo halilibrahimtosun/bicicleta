@@ -32,7 +32,7 @@ bicicletaSchema.statics.add = function (aBici, cb) {
 };
 
 bicicletaSchema.statics.findByCode = function (aCode, cb) {
-    retun this.findOne({ code: aCode, cb });
+    return this.findOne({ code: aCode, cb });
 };
 
 bicicletaSchema.statics.removeByCode = function (aCode, cb) {
